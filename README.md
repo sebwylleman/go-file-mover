@@ -39,7 +39,7 @@ Born from the desire to streamline file organisation, this script was my way of 
 
 ## License
 
-This project is licensed under the MIT License. This means you are free to use, modify, and distribute the software for any purpose, including commercial applications.
+This project is licensed under the [MIT License](https://github.com/sebwylleman/goFileMover/blob/main/license.txt). This means you are free to use, modify, and distribute the software for any purpose, including commercial applications.
 
 ## Contribution
 
