@@ -16,25 +16,25 @@ Born from the desire to streamline file organisation, this script was my way of 
 
 ## Usage
 
-1. **Create Target Directory:** Make a new directory named `html_files` in the same location where you have saved the `move_files.go` script. This is where the script will move all the files it finds. Feel free to change the directory name to your liking, but make sure to also change the name of the `targeDir` variable in the script to match your new directory name.
+1. **Create Target Directory:** Make a new directory named `html_files` in the same location where you have saved the `goFileMover.go` script. This is where the script will move all the files it finds. Feel free to change the directory name to your liking, but make sure to also change the name of the `targeDir` variable in the script to match your new directory name.
 2. **Set the Extension:**
-   - Open the `move_files.go` file in a text editor.
+   - Open the `goFileMover.go` file in a text editor.
    - Locate the line:
      ```go
      if filepath.Ext(path) == ".html" {
      ```
-   - Replace `.html` with the desired file extension (e.g., `".txt"`, `".jpg"`, `".mp4"`, ".jpeg"):
+   - Replace `.html` with the desired file extension (e.g., `".txt"`, `".jpg"`, `".mp4"`, `".jpeg"`):
      ```go
      if filepath.Ext(path) == ".jpeg" {
      ```
 3. **Run the Script:**
    - **If you have Go installed:**
      - Open your terminal and navigate to the script's location.
-     - Run `go build move_files.go`.
-     - Execute the compiled file: `./move_files` (or `move_files.exe` on Windows).
+     - Run `go build goFileMover.go`.
+     - Execute the compiled file: `./goFileMover` (or `goFileMover.exe` on Windows).
    - **If you don't have Go installed:**
      - Ask me for the executable compiled for your operating system.
-     - Place the executable in the same directory as the `move_files.go` script and the `html_files` folder.
+     - Place the executable in the same directory as the `goFileMover.go` script and the `html_files` folder.
      - Double-click the executable to run it.
 
 ## License
