@@ -1,6 +1,6 @@
 # goFileMover 🤖
 
-If manually managing files scattered across multiple directories is a time-consuming headache, goFileMover offers a simple, automated solution. This script consolidates files of a specific type into a single location, saving you valuable time and effort.
+If manually managing files scattered across multiple directories is a time-consuming headache, _goFileMover_ offers a simple, automated solution. This script consolidates files of a specific type into a single location, saving you valuable time and effort.
 
 ## About
 
