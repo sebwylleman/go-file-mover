@@ -16,7 +16,7 @@ Born from the desire to streamline file organisation, this script was my way of 
 
 ## Usage
 
-1. **Create Target Directory:** Make a new directory named `html_files` in the same location where you have saved the `goFileMover.go` script. This is where the script will move all the files it finds. Feel free to change the directory name to your liking, but make sure to also change the name of the `targeDir` variable in the script to match your new directory name.
+1. **Create Target Directory:** Make a new directory named `html_files` in the same location where you have saved the `goFileMover.go` script. This is where the script will move all the files it finds. Feel free to change the directory name to your liking, but make sure to also change the name of the `targetDir` variable in the script to match your new directory name.
 2. **Set the Extension:**
    - Open the `goFileMover.go` file in a text editor.
    - Locate the line:
